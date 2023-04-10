@@ -231,6 +231,10 @@ ul {
     background-color: #F4F4FD;
     padding: 120px 0
 }
+.container-team {
+    border-radius: 0px 0px 4px 4px;
+}
+
 
 .heading-team {
     margin-bottom: 72px;
@@ -322,9 +326,7 @@ ul {
     background: #F4F4FD;
     cursor: pointer;
     padding: 12px 24px;
-    border: 1px;
     border-radius: 4px;
-   
 }
 .button-filters:active,
 .button-filters:hover,
