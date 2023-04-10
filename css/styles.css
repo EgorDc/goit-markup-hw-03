@@ -43,6 +43,7 @@ ul {
 .nav-link {
     display: flex;
     align-items: center;
+    margin-right: 332PX;
 }
 
 .logo {
@@ -63,7 +64,6 @@ ul {
 }
 .list-link {
     margin: 0px;
-    margin-right: 332px;
     padding: 0;
     width: 261px;
 }
@@ -236,9 +236,10 @@ ul {
 .team-card:not(:last-child) {
     margin-right: 24px;
 }
-.cards {
-    margin-bottom: 32px;
+.card-content {
+    padding: 32px 16px;
 }
+
 .card-name {
     font-weight: 500;
     font-size: 20px;
@@ -253,9 +254,12 @@ ul {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
+    display: block;
     color: var(--paragraf-color);
-    margin-bottom: 32px;
+    margin: 0 auto;
+     
 }
+
 /*footer*/
 .footer {
     background: var(--text-color);
@@ -286,14 +290,22 @@ ul {
 .container-portfolio {
     height: 1692px;
     display: block;
-    margin-top: 96px;
-    margin-bottom: 120px;
-    
-
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 .portfolio-name {
     visibility: hidden;
     display: none;
+}
+.list-button {
+    width: 586;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+.list-filters {
+    
 }
 .button-filters {
     font-family: "Roboto", sans-serif;
@@ -304,7 +316,10 @@ ul {
     color: #4D5AE5;
     background: #F4F4FD;
     cursor: pointer;
-    gap: 24px;
+    padding: 12px 24px;
+    border: 1px;
+    border-radius: 4px;
+   
 }
 .button-filters:active,
 .button-filters:hover,
@@ -312,4 +327,30 @@ ul {
     color: var(--background-color);
     background: var(--accent-color);
 }
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+.list-card {
+    flex-basis: calc((100% - 48px) / 3);
+}
 
+.card-portfolio {
+    text-align: start;
+}
+.text-portfolio {
+    text-align: start;
+}
+.border-portfolio {
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #E7E9FC;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E9FC;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #E7E9FC;
+}
