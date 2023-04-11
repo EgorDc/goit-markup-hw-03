@@ -44,7 +44,7 @@ ul {
 .nav-link {
     display: flex;
     align-items: center;
-    margin-right: 332PX;
+    margin-right: auto;
 }
 
 .logo {
@@ -181,7 +181,6 @@ ul {
 }
 .feature {
     visibility: hidden;
-    display: none;
 } 
 .list {
     list-style: none;
@@ -240,10 +239,10 @@ ul {
 }
 .team-card:not(:last-child) {
     margin-right: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
 .card-content {
     padding: 32px 16px;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .card-name {
@@ -302,7 +301,6 @@ ul {
 }
 .portfolio-name {
     visibility: hidden;
-    display: none;
 }
 .list-button {
     width: 586;
